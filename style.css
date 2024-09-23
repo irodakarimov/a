@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 60px;
+    background-color: black;
+    margin: 0 auto;
+    color: #fff;
+    align-items: center;
+    padding: 0 0 0 25px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 350px;
+}
+
+.nav form input {
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.nav form svg {
+    position: relative;
+    z-index: 1;
+    right: 40px;
+    top: 4px;
+}
+
+.header-content {
+    width: 1440px;
+    height: 300px;
+    background-image: url(img/slider21.png);
+    margin: 0 auto;
+}
+
+.text {
+    color: #fff;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text button {
+    width: 109px;
+    height: 55px;
+    background: rgba(118, 185, 0, 1);
+    font-weight: 700;
+}
+
+.div-d {
+    width: 290px;
+    height: 163px;
+    text-align: center;
+    box-shadow: 0px 10px 20px gray;
+    margin-bottom: 20px;
+}
+
+.div-d p {
+    font-size: 14px; 
+    margin-top: 70px;
+}
+
+.div-d h2 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-content-text h1 {
+    font-size: 48px;
+    color: rgba(103, 185, 0, 1);
+}
+
+.section-content-text p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+}
+
+
+.section-content-text button {
+    width: 233px;
+    height: 62px;
+    background: rgba(118, 185, 0, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    border: none;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+footer {
+    width: 1440px;
+    height: 211px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+}
+
+.footer-d div {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.78px;
+    color: #666666;
+}
+
